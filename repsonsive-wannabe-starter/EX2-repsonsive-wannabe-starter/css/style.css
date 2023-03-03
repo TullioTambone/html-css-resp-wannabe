@@ -109,7 +109,7 @@ img {
 
 /* WHY US SECTION */
 .why-us {
-    margin-bottom: 3rem;
+    margin-bottom: 3em;
 }
 .why-us .col-left {
     width: 40%;
@@ -127,19 +127,20 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
- /*DESKTOP ----*/
- @media screen and (min-width: 1160px){
-    
-    .container{
-        width: 70vw;
-    }    
-}
 
  /*!TABLET ----*/
  @media screen and (min-width:481px){
     .container{
         width: 100vw;
     }
+}
+
+ /*DESKTOP ----*/
+ @media screen and (min-width: 1160px){
+
+    .container{
+        width: 70vw;
+    }    
 }
 
 /*MOBILE ----*/
@@ -154,5 +155,13 @@ img {
         flex-basis: 100%;
         margin: 1.5em 0;
     }
-
+    .steps{
+        margin: 0;
+        padding: 3em 0;
+    }
+    .why-us{
+       background-color: #222222;
+       margin: 0;
+       padding: 3em 0;
+    }
 }
