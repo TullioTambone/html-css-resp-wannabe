@@ -127,6 +127,20 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ /*DESKTOP ----*/
+ @media screen and (min-width: 1160px){
+    
+    .container{
+        width: 70vw;
+    }    
+}
+
+ /*!TABLET ----*/
+ @media screen and (min-width:481px){
+    .container{
+        width: 100vw;
+    }
+}
 
 /*MOBILE ----*/
 @media screen and (max-width:480px){
@@ -142,21 +156,3 @@ img {
     }
 
 }
-
- /*!TABLET ----*/
- @media screen and (min-width:481px){
-    .container{
-        width: 100vw;
-    }
-}
-
- /*DESKTOP ----*/
-@media screen and (min-width: 1160px){
-    
-    .container{
-        width: 70vw;
-    }    
-}
-
-
-
